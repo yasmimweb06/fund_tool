@@ -1,0 +1,23 @@
+/*
+mais um comando de comentario de código somente para CSS
+*/
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: linear-gradient(to right,#ff00bb,#e229ff); 
+
+}
+img{
+    width: 1000px;
+}  
