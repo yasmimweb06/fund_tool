@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* Um charset (ou conjunto de caracteres) de página define quais símbolos e 
+letras podem ser usados e como eles são interpretados pelo navegador. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+/*Esse código CSS cria um fundo gradiente no corpo da página, indo de um roxo escuro
+ na parte superior a um roxo claro na inferior. O fundo fica fixo e não se repete, 
+ proporcionando um efeito visual estático ao rolar a página.  */
+
+body {
+    background-image: linear-gradient(to bottom, #000000 50%, #7519ff 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #8b61c9;
+    border-radius: 7px;
+    width: 25vw;
+    margin: 30px;
+    padding: 10px;
+}
+header >h1{
+    text-align: center;
+    color: #1b1622;
+}
+
+nav {
+    background-color: #ebebeb;
+    border-radius: 7px;
+    width: 35vw;
+    margin: 30px;
+padding: 10px;
+font-size: 1.7rem;
+
+}
+
+main{
+ background-color: #a667ff;
+width: 90vw;
+ border-radius: 9px;
+ align-items: center;
+
+
+}
